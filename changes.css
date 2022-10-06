@@ -1,0 +1,238 @@
+/* Alot of this code was taken from #css-snippets from betterdiscord server https://discord.com/invite/0Tmfo5ZbORCRqbAd */
+
+/* --- Hide titlebar --- */
+.wordmark-2L03Wr,
+.wordmark-2iDDfm,
+.wordmark-2u86JB,
+.titleBar-1it3bQ::after,
+.titleBar-1it3bQ::before,
+.titleBar-AC4pGV::after,
+.titleBar-AC4pGV::before {
+	display: none;
+}
+
+/* --- Hide help button --- */
+.toolbar-1t6TWx a,
+.toolbar-3_r2xA a {
+	display: none;
+}
+
+/* --- Forum tab fix --- */
+#app-mount .container-3wLKDe,
+#app-mount .background-fkKrXt {
+    background-color: var(--background-primary);
+}
+
+/* Card */
+.mainCard-3KBsBI,
+.card-3x20HF,
+.container-xwOzwi,
+.container-2Hi7Km {
+    background-color: var(--background-secondary);
+    border-radius: 8px;
+}
+
+.icon-2IDTxf {
+    border-color: var(--background-secondary);
+    background-color: var(--background-secondary);
+}
+
+.container-2qVG6q {
+    border: none;
+}
+
+.container-2qVG6q:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.mainCard-3KBsBI .heading-lg-medium-3gUJeM,
+.mainCard-3KBsBI .heading-lg-normal-1bqh2L {
+    font-family: var(--font-display);
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.sidebarCard-1Gn1ch {
+    background-color: var(--background-secondary);
+    border: none;
+    border-radius: 8px;
+}
+
+/* Form */
+.mainCard-3KBsBI .container-JhuCwn.collapsed-23aTv6 {
+    cursor: unset;
+}
+
+.mainCard-3KBsBI.header-1Uy0p6:hover {
+    border-color: transparent;
+}
+
+.mainCard-3KBsBI form .title-1v5ZfI,
+.mainCard-3KBsBI form .title-1v5ZfI::placeholder {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.mainCard-3KBsBI .pill-3pRQlO {
+    background-color: var(--background-tertiary);
+}
+
+.mainCard-3KBsBI .dots-2_b2Mn {
+    border-color: var(--background-secondary);
+}
+
+/* Sidebar */
+.container-3XgAHv .container-27JV1h .heading-xxl-medium-1hl0GL,
+.container-3XgAHv .container-27JV1h .heading-xxl-normal-3zbV4t {
+    font-family: var(--font-display);
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.container-3XgAHv .container-27JV1h .iconWrapper-3FqQ75 {
+    margin-top: 0;
+}
+
+/* --- Ragrup inbox --- */
+.recentMentionsPopout-2bI1ZN .container-iA3Qrz,
+.recentMentionsPopout-2bI1ZN .channel-3NJZ1V {
+    background-color: var(--background-primary);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.recentMentionsPopout-2bI1ZN .container-iA3Qrz {
+    padding-right: unset;
+}
+
+.recentMentionsPopout-2bI1ZN .messagesPopout-eVzQcI {
+    padding: 16px;
+}
+
+.recentMentionsPopout-2bI1ZN .channel-3NJZ1V {
+    margin: 16px 8px 16px 0;
+    padding-bottom: 0;
+}
+
+.recentMentionsPopout-2bI1ZN .channelHeader-DFRX8q {
+    background-color: var(--background-primary);
+    height: fit-content;
+    padding: 6px 16px;
+    border-bottom: thin solid var(--background-modifier-accent);
+}
+
+.recentMentionsPopout-2bI1ZN .messageContainer-3VTXBC,
+.recentMentionsPopout-2bI1ZN .messages-23can0 {
+    margin-left: unset;
+    background: none;
+    border-radius: unset;
+}
+
+/* header icon */
+.recentMentionsPopout-2bI1ZN .iconSizeMedium-2vzSua {
+    width: 24px;
+    height: 24px;
+}
+
+.recentMentionsPopout-2bI1ZN .iconActiveMedium-27_R5B {
+    border-radius: 7px;
+}
+
+.recentMentionsPopout-2bI1ZN .dmIcon-1ZeAqq,
+.recentMentionsPopout-2bI1ZN .guildIcon-IklRcj {
+    margin-right: 6px;
+}
+
+/* channel name section */
+.recentMentionsPopout-2bI1ZN .channelName-3APnhp svg path {
+    fill: var(--channel-icon);
+}
+
+.recentMentionsPopout-2bI1ZN .channelName-3APnhp svg {
+    margin: 0 4px;
+}
+
+.recentMentionsPopout-2bI1ZN .channelNameSection-3OgeRa {
+    -webkit-box-orient: unset;
+    -ms-flex-direction: unset;
+    flex-direction: unset;
+}
+
+.recentMentionsPopout-2bI1ZN .heading-md-medium-2DVCeJ,
+.recentMentionsPopout-2bI1ZN .heading-md-normal-3Ytn6I {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.recentMentionsPopout-2bI1ZN .subtext-2-lYzF,
+.recentMentionsPopout-2bI1ZN .subtextContainer-1jbEbB {
+    margin-left: 4px;
+    line-height: 20px;
+    width: fit-content;
+}
+
+/* buttons */
+.recentMentionsPopout-2bI1ZN .container-iA3Qrz .closeButton-3CiW2j {
+    opacity: 0;
+}
+
+.recentMentionsPopout-2bI1ZN .container-iA3Qrz:hover .closeButton-3CiW2j {
+    opacity: 1;
+}
+
+.recentMentionsPopout-2bI1ZN .tertiary-1e-lAP:not(.disabled-184-il),
+.recentMentionsPopout-2bI1ZN .tertiary-1e-lAP:hover:not(.disabled-184-il) {
+    background: none;
+}
+
+.recentMentionsPopout-2bI1ZN .collapseButton-39-IRc:hover {
+    color: var(--interactive-active);
+}
+
+.recentMentionsPopout-2bI1ZN .collapseButton-39-IRc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: unset;
+    width: 32px;
+    height: 32px;
+    padding: unset;
+    margin-left: 12px;
+}
+
+.recentMentionsPopout-2bI1ZN .messages-23can0>button:last-of-type {
+    margin-left:auto;
+}
+
+/* --- New role background --- */
+:root{
+  --roles-roundness: 0; /* change the 0 to any other number if you want the roles to be fully round */
+
+  --roles-roundness-calc: calc((var(--roles-roundness) + .21) * 25px)
+}
+.role-2TIOKu {
+  transform: translate(0);
+  border: 0;
+  border-radius: var(--roles-roundness-calc);
+}
+.role-2TIOKu .roleRemoveIcon-387wKV {
+  margin: 0;
+  left: unset;
+  transform: translate(50%,-50%);
+}
+.role-2TIOKu .roleRemoveButton-17oXnT{position: static}
+.role-2TIOKu .roleCircle-3K9O3d:before {
+  content: '';
+  top: 0;left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  background: inherit;
+  border-radius: var(--roles-roundness-calc);
+  border: 2px solid transparent;
+  -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+}
