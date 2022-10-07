@@ -23,6 +23,19 @@
     background-color: var(--background-primary);
 }
 
+/* --- Fix invisible tabs ---- */
+.container-2ebMPP,
+.browser-mnQ1T7,
+.messagesPopoutWrap-3zryHW,
+.fullscreenOnMobile-ixj0e3 {
+	background-color: rgba(27, 27, 27, 1);
+	--background-secondary: rgba(27, 27, 27, 1);
+	--background-tertiary: rgba(27, 27, 27, 1);
+}
+.zoomedCarouselModalRoot-beLNhM {
+	background: none;
+}
+
 /* Card */
 .mainCard-3KBsBI,
 .card-3x20HF,
